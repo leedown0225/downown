@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+}
+
+#Carousel{
+    width:75%;
+    height:600px;
+}
+#school{
+    width:100%;
+    height:550px;		
+}
+#urlph{
+    width:100%;
+    height:550px;
+}
+#map{
+    width:100%;
+    height:550px;
+}
+
+@media (max-width:768px){
+    #Carousel{
+        width:80%;
+        height:350px;
+    }
+    #school{
+        width:100%;
+        height:350px;
+    }
+    #urlph{
+        width:100%;
+        height:350px;
+    }
+    #map{
+        width:100%;
+        height:350px;
+    }
+}
+
+@media (max-width:540px){
+    #Carousel{
+        width:90%;
+        height:280px;
+    }
+    #school{
+        width:100%;
+        height:280px;
+    }
+    #urlph{
+        width:100%;
+        height:280px;
+    }
+    #map{
+        width:100%;
+        height:280px;
+    }
+}
+
+
+a:link.link{
+    color:rgb(255, 255, 255);
+    background-color:rgb(75, 165, 254);
+    text-decoration: none;
+    padding:5px;
+    box-shadow: 3px 3px 6px black;
+}
+
+a:visited.link{
+    color:rgb(255, 255, 255);
+}
+
+a:hover.link{
+    color:rgb(255, 255, 255);
+    background-color: rgba(255, 0, 13, 0.731);
+}
+
+a:active.link{
+
+    color:rgb(255, 255, 255);
+}
+
+
+
+/* fullpage */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2.downtitle {
+    -webkit-writing-mode: vertical-lr;
+    writing-mode:vertical-lr ;
+    text-shadow: -1px -1px 0 black,
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black;
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    top:15%;
+    right:0px;
+}
+
+#section1 {
+    background-image: url(image/14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+}
+
+.downmap{
+    width:50%;
+    height:500px;
+    display: block;
+    margin: auto;    
+}
+.down{
+    width:50%;
+    height:500px;
+    display: block;
+    margin: auto;
+}
+.down2{
+    width:90%;
+    height:450px;
+    display: block;
+    margin: auto;
+}
+.down3{
+    width:90%;
+    height:450px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width:768px){
+    h2{
+        font-size: 30px;
+    }
+    .downmap{
+        width:50%;
+        height:350px;
+    }
+    .down{
+        width:50%;
+        height:350px;
+    }
+    .down2{
+        width:80%;
+        height:300px;
+    }
+    .down3{
+        width:80%;
+        height:300px;
+    }
+}
+
+@media (max-width:540px){
+    h2{
+        font-size: 25px;
+    }
+    .downmap{
+        width:50%;
+        height:250px;
+    }
+    .down{
+        width:50%;
+        height:250px;
+    }
+    .down2{
+        width:80%;
+        height:200px;
+    }
+    .down3{
+        width:80%;
+        height:200px;
+    }
+}
