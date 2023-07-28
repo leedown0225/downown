@@ -88,6 +88,9 @@ a:active.link{
     margin: 0;
     padding: 0;
 }
+.margin{
+    margin-top: 50px;
+}
 
 h2.downtitle {
     -webkit-writing-mode: vertical-lr;
@@ -136,8 +139,11 @@ h2.downtitle {
 }
 
 @media (max-width:768px){
-    h2{
-        font-size: 30px;
+    .margin{
+        margin-top: 30px;
+    }
+    h2.downtitle{
+        font-size: 35px;
     }
     .downmap{
         width:50%;
@@ -158,7 +164,10 @@ h2.downtitle {
 }
 
 @media (max-width:540px){
-    h2{
+    .margin{
+        margin-top: 5px;
+    }
+    h2.downtitle{
         font-size: 25px;
     }
     .downmap{
@@ -178,3 +187,5 @@ h2.downtitle {
         height:200px;
     }
 }
+
+
